@@ -17,7 +17,7 @@ const MovieInfoBar = (props) => {
                 </div>
                 <div className="rmdb-movieinfobar-content-col">
                     <FontAwesome className="fa fa-revenue" name="ticket" size="2x" />
-                    <span className="rmdb-movieinfobar-info">Revenue: {calcTime(props.revenue)}</span>
+                    <span className="rmdb-movieinfobar-info">Revenue: {convertMoney(props.revenue)}</span>
                 </div>
             </div>
         </div>
